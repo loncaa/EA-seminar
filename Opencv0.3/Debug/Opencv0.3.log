@@ -1,0 +1,23 @@
+﻿Build started 8.7.2014. 20:41:08.
+     1>Project "d:\Users\Antonio\Documents\Visual Studio 2013\Projects\EA\EA project - 19.06.2014\Opencv0.3\Opencv0.3.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ID:\OpenCv\build\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\EA project.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ID:\OpenCv\build\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\EA project.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "EA project.cpp" SerialClass.cpp
+         SerialClass.cpp
+         EA project.cpp
+     1>d:\users\antonio\documents\visual studio 2013\projects\ea\ea project - 19.06.2014\opencv0.3\ea project.cpp(57): warning C4018: '<' : signed/unsigned mismatch
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\Opencv0.3.res" Opencv0.3.rc 
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"d:\Users\Antonio\Documents\Visual Studio 2013\Projects\EA\EA project - 19.06.2014\Debug\EA project.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\OpenCv\build\x86\vc12\lib /LIBPATH:D:\OpenCv\build\x86\vc12\bin opencv_calib3d248d.lib opencv_contrib248d.lib opencv_core248d.lib opencv_features2d248d.lib opencv_flann248d.lib opencv_gpu248d.lib opencv_highgui248d.lib opencv_imgproc248d.lib opencv_legacy248d.lib opencv_ml248d.lib opencv_nonfree248d.lib opencv_objdetect248d.lib opencv_photo248d.lib opencv_stitching248d.lib opencv_ts248d.lib opencv_video248d.lib opencv_videostab248d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"d:\Users\Antonio\Documents\Visual Studio 2013\Projects\EA\EA project - 19.06.2014\Debug\EA project.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"d:\Users\Antonio\Documents\Visual Studio 2013\Projects\EA\EA project - 19.06.2014\Debug\EA project.lib" /MACHINE:X86 Debug\Opencv0.3.res
+         "Debug\EA project.obj"
+         Debug\SerialClass.obj
+         Debug\stdafx.obj
+         Opencv0.3.vcxproj -> d:\Users\Antonio\Documents\Visual Studio 2013\Projects\EA\EA project - 19.06.2014\Debug\EA project.exe
+     1>Done Building Project "d:\Users\Antonio\Documents\Visual Studio 2013\Projects\EA\EA project - 19.06.2014\Opencv0.3\Opencv0.3.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.10
